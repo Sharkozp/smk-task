@@ -1,12 +1,14 @@
-package an.dikij.smktesting;
+package an.dikij.smktesting.system;
+
+import android.graphics.Bitmap;
 
 public class Product {
 	private int id;
-	private String img;
+	private Bitmap img;
 	private String text;
 	private String title;
 
-	public Product(int id, String img, String text, String title) {
+	public Product(int id, Bitmap img, String text, String title) {
 		this.id = id;
 		this.img = img;
 		this.text = text;
@@ -17,7 +19,7 @@ public class Product {
 		return id;
 	}
 
-	public String getImg() {
+	public Bitmap getImg() {
 		return img;
 	}
 
@@ -33,7 +35,4 @@ public class Product {
 	public String toString() {
 		return "Product [title=" + title + "]";
 	}
-	
-	
-
 }

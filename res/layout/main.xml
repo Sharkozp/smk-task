@@ -10,15 +10,10 @@
     tools:context=".Main" >
 
     <ListView
-        android:id="@+id/listView1"
+        android:id="@+id/productsList"
         android:layout_width="fill_parent"
-        android:layout_height="290dp" >
-    </ListView>
+        android:layout_height="match_parent" >
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher" />
+    </ListView>
 
 </LinearLayout>
